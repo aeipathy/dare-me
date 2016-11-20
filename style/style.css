@@ -1,0 +1,124 @@
+body {
+  background-image: url(bg.jpg);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  letter-spacing: 1.2px;
+  color: #3C0A40; }
+
+.container {
+  margin: 20px;
+  padding: 20px;
+  padding-bottom: 0;
+  height: 90vh;
+  background-color: rgba(255, 230, 230, 0.9);
+  overflow: scroll; }
+
+.content {
+  margin-bottom: -25px;
+  min-height: 100%; }
+  .content:after {
+    content: "";
+    display: block;
+    height: 35px; }
+
+h1 {
+  font-size: 30px;
+  font-family: "Bodoni MT", Bodoni, Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  margin-bottom: 10px; }
+
+h2 {
+  font-size: 25px;
+  font-family: "Bodoni MT", Bodoni, Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  margin-bottom: 10px;
+  border-bottom: 1px #E3224F solid;
+  font-style: italic; }
+
+h3 {
+  font-size: 15px;
+  font-family: "Bodoni MT", Bodoni, Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+  margin-bottom: 10px;
+  font-style: italic; }
+  h3:before {
+    position: relative;
+    padding-right: 5px;
+    top: -4px;
+    content: '\25B6';
+    color: #E3224F;
+    font-size: 7px; }
+
+a {
+  font-style: italic;
+  text-decoration: none;
+  color: #E3224F;
+  transition: color 0.5s;
+  -o-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -webkit-transition: color 0.5s; }
+  a:hover {
+    color: #FC4C79; }
+
+p, blockquote, .list li {
+  line-height: 140%;
+  margin-bottom: 10px; }
+
+strong {
+  color: #E3224F;
+  font-weight: bold; }
+
+em {
+  color: #E3224F;
+  font-style: italic; }
+
+blockquote {
+  padding-left: 10px;
+  border-left: 3px #E3224F solid; }
+
+ul {
+  margin-bottom: 10px; }
+
+ul li {
+  line-height: 120%; }
+
+ul li:before {
+  content: '\2605';
+  font-size: 80%;
+  color: #FC4C79;
+  margin-right: 5px; }
+
+.title {
+  text-align: center;
+  font-size: 130%;
+  height: 94vh; }
+  .title h1 {
+    font-size: 50px;
+    margin-bottom: 30px; }
+
+.nav {
+  height: 25px;
+  padding: 5px 0;
+  text-align: center; }
+
+.stats {
+  position: relative;
+  left: 60px;
+  width: 50vw;
+  padding: 7px;
+  background-color: #E3224F;
+  color: #ffe6e6; }
+  .stats a {
+    color: #ffe6e6; }
+  .stats a:hover {
+    color: #fff; }
+
+input {
+  margin-bottom: 7px; }
+
+.list li {
+  list-style-type: none;
+  padding-left: 10px;
+  border-left: 3px #E3224F solid; }
+  .list li:before {
+    content: none;
+    margin: 0; }
+
+/*# sourceMappingURL=style.css.map */
