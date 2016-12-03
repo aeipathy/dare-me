@@ -110,6 +110,10 @@ ul li:before {
   .stats a:hover {
     color: #fff; }
 
+.codes {
+  text-align: center;
+  margin-bottom: 20px; }
+
 input {
   margin-bottom: 7px; }
 
